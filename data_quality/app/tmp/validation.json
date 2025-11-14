@@ -1,0 +1,14 @@
+[
+  {
+    "alerte": "Des doublons ont été détectés sur cette colonne",
+    "type de test": "doublons sensibles sur colonne",
+    "statut": "échoué",
+    "colonne testée": "email",
+    "nombre": 2,
+    "ratio": "2/5 valeurs distinctes",
+    "exemples": [
+      "john.doe@example.com",
+      "alice@test.com"
+    ]
+  }
+]

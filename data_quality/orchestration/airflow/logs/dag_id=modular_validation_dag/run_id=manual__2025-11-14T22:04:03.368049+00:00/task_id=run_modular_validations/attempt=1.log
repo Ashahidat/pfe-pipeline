@@ -1,0 +1,24 @@
+[2025-11-14T22:04:08.329+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-14T22:04:08.399+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: modular_validation_dag.run_modular_validations manual__2025-11-14T22:04:03.368049+00:00 [queued]>
+[2025-11-14T22:04:08.411+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: modular_validation_dag.run_modular_validations manual__2025-11-14T22:04:03.368049+00:00 [queued]>
+[2025-11-14T22:04:08.411+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-11-14T22:04:08.430+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): run_modular_validations> on 2025-11-14 22:04:03.368049+00:00
+[2025-11-14T22:04:08.434+0000] {standard_task_runner.py:64} INFO - Started process 4031 to run task
+[2025-11-14T22:04:08.439+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'modular_validation_dag', 'run_modular_validations', 'manual__2025-11-14T22:04:03.368049+00:00', '--job-id', '539', '--raw', '--subdir', 'DAGS_FOLDER/unified_dag.py', '--cfg-path', '/tmp/tmpgurxdafc']
+[2025-11-14T22:04:08.441+0000] {standard_task_runner.py:91} INFO - Job 539: Subtask run_modular_validations
+[2025-11-14T22:04:08.476+0000] {logging_mixin.py:188} WARNING - /home/ashahi/PFE/env/lib/python3.10/site-packages/airflow/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-11-14T22:04:08.558+0000] {task_command.py:426} INFO - Running <TaskInstance: modular_validation_dag.run_modular_validations manual__2025-11-14T22:04:03.368049+00:00 [running]> on host AshLaptop.
+[2025-11-14T22:04:08.852+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='modular_validation_dag' AIRFLOW_CTX_TASK_ID='run_modular_validations' AIRFLOW_CTX_EXECUTION_DATE='2025-11-14T22:04:03.368049+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-14T22:04:03.368049+00:00'
+[2025-11-14T22:04:08.853+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-14T22:04:59.543+0000] {logging_mixin.py:188} INFO - 🚀 Exécution du validator 'duplicates'
+[2025-11-14T22:05:14.384+0000] {logging_mixin.py:188} INFO - ✅ Validator 'duplicates' terminé
+[2025-11-14T22:05:15.331+0000] {logging_mixin.py:188} WARNING - /home/ashahi/PFE/env/lib/python3.10/site-packages/great_expectations/util.py:33 UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2025-11-14T22:05:22.591+0000] {logging_mixin.py:188} INFO - 🚀 Exécution du validator 'regex'
+[2025-11-14T22:05:22.592+0000] {logging_mixin.py:188} INFO - ✅ Validator 'regex' terminé
+[2025-11-14T22:05:22.667+0000] {base.py:84} INFO - Using connection ID 'postgres_airflow' for task execution.
+[2025-11-14T22:05:23.193+0000] {python.py:237} INFO - Done. Returned value was: {'duplicates': [{'alerte': 'Des doublons ont été détectés sur cette colonne', 'type de test': 'doublons sensibles sur colonne: id', 'statut': 'échoué', 'colonne testée': 'id', 'nombre': 2, 'ratio': '2/5', 'exemples': ['3', '2']}, {'alerte': 'Des doublons sur lignes complètes ont été détectés', 'type de test': 'doublons sur ligne entière', 'statut': 'échoué', 'nombre': 1, 'ratio': '1/5', 'exemples': [{'id': '2', 'name': 'banana', 'value': '20', 'occurrences': 2}]}], 'regex': {'regex': []}}
+[2025-11-14T22:05:23.193+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-14T22:05:23.246+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=modular_validation_dag, task_id=run_modular_validations, run_id=manual__2025-11-14T22:04:03.368049+00:00, execution_date=20251114T220403, start_date=20251114T220408, end_date=20251114T220523
+[2025-11-14T22:05:23.306+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-14T22:05:23.376+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-14T22:05:23.379+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

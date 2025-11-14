@@ -1,0 +1,854 @@
+[2025-11-14T01:12:32.891+0000] {processor.py:161} INFO - Started process (PID=6790) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:12:32.892+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:12:32.894+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:12:32.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:12:33.099+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:12:33.141+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:12:33.141+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:12:33.159+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:12:33.159+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:12:33.186+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.305 seconds
+[2025-11-14T01:13:03.331+0000] {processor.py:161} INFO - Started process (PID=6896) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:13:03.333+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:13:03.335+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:13:03.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:13:03.613+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:13:03.659+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:13:03.658+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:13:03.676+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:13:03.675+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:13:03.704+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.382 seconds
+[2025-11-14T01:13:34.102+0000] {processor.py:161} INFO - Started process (PID=7049) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:13:34.104+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:13:34.105+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:13:34.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:13:34.307+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:13:34.345+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:13:34.345+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:13:34.359+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:13:34.359+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:13:34.387+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.294 seconds
+[2025-11-14T01:14:04.955+0000] {processor.py:161} INFO - Started process (PID=7151) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:14:04.956+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:14:04.958+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:14:04.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:14:05.137+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:14:05.172+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:14:05.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:14:05.187+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:14:05.187+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:14:05.219+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.271 seconds
+[2025-11-14T01:14:35.371+0000] {processor.py:161} INFO - Started process (PID=7329) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:14:35.373+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:14:35.376+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:14:35.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:14:35.619+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:14:35.663+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:14:35.662+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:14:35.679+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:14:35.679+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:14:35.709+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.349 seconds
+[2025-11-14T01:15:06.586+0000] {processor.py:161} INFO - Started process (PID=7468) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:15:06.588+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:15:06.590+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:15:06.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:15:06.841+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:15:06.880+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:15:06.879+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:15:06.895+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:15:06.895+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:15:06.924+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.349 seconds
+[2025-11-14T01:15:37.155+0000] {processor.py:161} INFO - Started process (PID=7577) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:15:37.156+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:15:37.159+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:15:37.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:15:37.450+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:15:37.497+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:15:37.497+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:15:37.522+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:15:37.522+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:15:37.562+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.420 seconds
+[2025-11-14T01:16:07.687+0000] {processor.py:161} INFO - Started process (PID=7683) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:16:07.689+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:16:07.691+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:16:07.691+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:16:07.902+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:16:07.940+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:16:07.939+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:16:07.954+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:16:07.953+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:16:07.981+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.302 seconds
+[2025-11-14T01:16:38.163+0000] {processor.py:161} INFO - Started process (PID=7785) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:16:38.165+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:16:38.167+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:16:38.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:16:38.372+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:16:38.410+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:16:38.410+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:16:38.425+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:16:38.425+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:16:38.452+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.297 seconds
+[2025-11-14T01:17:08.610+0000] {processor.py:161} INFO - Started process (PID=7890) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:17:08.612+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:17:08.613+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:17:08.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:17:08.833+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:17:08.869+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:17:08.869+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:17:08.883+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:17:08.883+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:17:08.911+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.310 seconds
+[2025-11-14T01:17:39.452+0000] {processor.py:161} INFO - Started process (PID=7992) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:17:39.454+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:17:39.457+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:17:39.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:17:39.787+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:17:39.845+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:17:39.845+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:17:39.865+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:17:39.864+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:17:39.903+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.463 seconds
+[2025-11-14T01:18:10.034+0000] {processor.py:161} INFO - Started process (PID=8102) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:18:10.036+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:18:10.038+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:18:10.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:18:10.239+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:18:10.293+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:18:10.292+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:18:10.318+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:18:10.318+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:18:10.352+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.326 seconds
+[2025-11-14T01:18:40.662+0000] {processor.py:161} INFO - Started process (PID=8214) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:18:40.665+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:18:40.669+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:18:40.668+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:18:40.889+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:18:40.927+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:18:40.926+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:18:40.942+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:18:40.942+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:18:40.972+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.328 seconds
+[2025-11-14T01:19:11.324+0000] {processor.py:161} INFO - Started process (PID=8314) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:19:11.325+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:19:11.327+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:19:11.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:19:11.597+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:19:11.652+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:19:11.651+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:19:11.674+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:19:11.674+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:19:11.706+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.390 seconds
+[2025-11-14T01:19:41.929+0000] {processor.py:161} INFO - Started process (PID=8409) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:19:41.931+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:19:41.933+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:19:41.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:19:42.124+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:19:42.173+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:19:42.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:19:42.188+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:19:42.188+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:19:42.215+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.293 seconds
+[2025-11-14T01:20:12.893+0000] {processor.py:161} INFO - Started process (PID=8511) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:20:12.894+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:20:12.896+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:20:12.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:20:13.092+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:20:13.129+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:20:13.129+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:20:13.143+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:20:13.143+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:20:13.170+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.286 seconds
+[2025-11-14T01:20:43.601+0000] {processor.py:161} INFO - Started process (PID=8613) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:20:43.602+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:20:43.604+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:20:43.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:20:43.822+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:20:43.861+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:20:43.860+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:20:43.877+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:20:43.876+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:20:43.903+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.310 seconds
+[2025-11-14T01:21:14.520+0000] {processor.py:161} INFO - Started process (PID=8716) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:21:14.522+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:21:14.524+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:21:14.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:21:14.717+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:21:14.755+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:21:14.754+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:21:14.768+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:21:14.768+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:21:14.795+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.284 seconds
+[2025-11-14T01:21:46.566+0000] {processor.py:161} INFO - Started process (PID=8832) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:21:46.567+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:21:46.570+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:21:46.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:21:46.782+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:21:46.820+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:21:46.820+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:21:46.835+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:21:46.834+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:21:46.863+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.306 seconds
+[2025-11-14T01:22:17.481+0000] {processor.py:161} INFO - Started process (PID=8940) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:22:17.485+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:22:17.490+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:22:17.490+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:22:17.814+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:22:17.861+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:22:17.861+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:22:17.880+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:22:17.880+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:22:17.920+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.450 seconds
+[2025-11-14T01:22:48.727+0000] {processor.py:161} INFO - Started process (PID=9063) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:22:48.732+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:22:48.736+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:22:48.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:22:48.981+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:22:49.036+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:22:49.036+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:22:49.064+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:22:49.064+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:22:49.109+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.392 seconds
+[2025-11-14T01:25:05.139+0000] {processor.py:161} INFO - Started process (PID=9786) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:25:05.142+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:25:05.144+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:25:05.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:25:05.472+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:25:05.531+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:25:05.530+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:25:05.551+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:25:05.551+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:25:05.587+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.458 seconds
+[2025-11-14T01:25:36.399+0000] {processor.py:161} INFO - Started process (PID=9882) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:25:36.401+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:25:36.404+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:25:36.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:25:36.732+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:25:36.805+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:25:36.804+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:25:36.831+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:25:36.831+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:25:36.868+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.484 seconds
+[2025-11-14T01:26:07.121+0000] {processor.py:161} INFO - Started process (PID=9980) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:26:07.123+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:26:07.125+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:26:07.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:26:07.403+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:26:07.464+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:26:07.463+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:26:07.485+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:26:07.484+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:26:07.531+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.427 seconds
+[2025-11-14T01:26:37.773+0000] {processor.py:161} INFO - Started process (PID=10082) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:26:37.775+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:26:37.787+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:26:37.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:26:38.145+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:26:38.252+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:26:38.251+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:26:38.286+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:26:38.286+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:26:38.359+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.618 seconds
+[2025-11-14T01:27:08.602+0000] {processor.py:161} INFO - Started process (PID=10190) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:27:08.604+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:27:08.609+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:27:08.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:27:08.872+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:27:08.930+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:27:08.929+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:27:08.950+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:27:08.949+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:27:08.984+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.392 seconds
+[2025-11-14T01:27:39.833+0000] {processor.py:161} INFO - Started process (PID=10292) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:27:39.834+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:27:39.836+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:27:39.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:27:40.036+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:27:40.074+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:27:40.073+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:27:40.093+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:27:40.093+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:27:40.123+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.299 seconds
+[2025-11-14T01:28:10.251+0000] {processor.py:161} INFO - Started process (PID=10394) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:28:10.252+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:28:10.254+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:28:10.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:28:10.468+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:28:10.512+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:28:10.512+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:28:10.537+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:28:10.537+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:28:10.569+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.328 seconds
+[2025-11-14T01:28:41.291+0000] {processor.py:161} INFO - Started process (PID=10496) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:28:41.293+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:28:41.295+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:28:41.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:28:41.589+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:28:41.634+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:28:41.633+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:28:41.657+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:28:41.657+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:28:41.690+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.412 seconds
+[2025-11-14T01:29:12.771+0000] {processor.py:161} INFO - Started process (PID=10598) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:29:12.781+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:29:12.826+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:29:12.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:29:13.734+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:29:13.884+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:29:13.883+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:29:13.947+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:29:13.946+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:29:14.052+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 1.480 seconds
+[2025-11-14T01:29:44.417+0000] {processor.py:161} INFO - Started process (PID=10673) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:29:44.420+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:29:44.423+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:29:44.423+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:29:44.987+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:29:45.079+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:29:45.078+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:29:45.124+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:29:45.123+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:29:45.202+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.813 seconds
+[2025-11-14T01:30:15.703+0000] {processor.py:161} INFO - Started process (PID=10765) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:30:15.706+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:30:15.710+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:30:15.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:30:16.004+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:30:16.070+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:30:16.069+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:30:16.088+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:30:16.088+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:30:16.118+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.441 seconds
+[2025-11-14T01:30:46.731+0000] {processor.py:161} INFO - Started process (PID=10861) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:30:46.732+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:30:46.734+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:30:46.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:30:47.003+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:30:47.060+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:30:47.059+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:30:47.080+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:30:47.080+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:30:47.118+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.396 seconds
+[2025-11-14T01:31:17.814+0000] {processor.py:161} INFO - Started process (PID=10970) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:31:17.816+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:31:17.818+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:31:17.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:31:18.105+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:31:18.146+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:31:18.145+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:31:18.161+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:31:18.161+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:31:18.188+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.383 seconds
+[2025-11-14T01:31:49.332+0000] {processor.py:161} INFO - Started process (PID=11074) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:31:49.333+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:31:49.340+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:31:49.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:31:49.588+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:31:49.626+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:31:49.626+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:31:49.641+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:31:49.640+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:31:49.668+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.347 seconds
+[2025-11-14T01:32:20.199+0000] {processor.py:161} INFO - Started process (PID=11171) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:32:20.201+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:32:20.202+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:32:20.202+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:32:20.404+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:32:20.443+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:32:20.442+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:32:20.458+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:32:20.458+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:32:20.488+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.302 seconds
+[2025-11-14T01:37:57.043+0000] {processor.py:161} INFO - Started process (PID=12055) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:37:57.046+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:37:57.049+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:37:57.048+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:37:57.402+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:37:57.461+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:37:57.460+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:37:57.487+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:37:57.487+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:37:57.525+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.498 seconds
+[2025-11-14T01:38:28.288+0000] {processor.py:161} INFO - Started process (PID=12218) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:38:28.290+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:38:28.293+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:38:28.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:38:28.538+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:38:28.589+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:38:28.589+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:38:28.607+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:38:28.607+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:38:28.638+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.362 seconds
+[2025-11-14T01:38:59.337+0000] {processor.py:161} INFO - Started process (PID=12325) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:38:59.340+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:38:59.347+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:38:59.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:38:59.733+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:38:59.827+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:38:59.826+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:38:59.847+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:38:59.847+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:39:00.993+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.582 seconds
+[2025-11-14T01:39:31.300+0000] {processor.py:161} INFO - Started process (PID=12423) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:39:31.302+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:39:31.304+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:39:31.304+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:39:31.593+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:39:31.646+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:39:31.645+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:39:31.671+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:39:31.671+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:39:31.707+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.423 seconds
+[2025-11-14T01:40:01.869+0000] {processor.py:161} INFO - Started process (PID=12534) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:40:01.871+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:40:01.874+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:40:01.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:40:02.116+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:40:02.167+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:40:02.166+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:40:02.181+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:40:02.181+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:40:02.207+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.346 seconds
+[2025-11-14T01:40:32.607+0000] {processor.py:161} INFO - Started process (PID=12773) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:40:32.609+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:40:32.610+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:40:32.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:40:32.817+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:40:32.856+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:40:32.855+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:40:32.869+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:40:32.869+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:40:32.896+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.301 seconds
+[2025-11-14T01:41:03.299+0000] {processor.py:161} INFO - Started process (PID=12937) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:41:03.300+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T01:41:03.302+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:41:03.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:41:03.522+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T01:41:03.562+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:41:03.562+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T01:41:03.577+0000] {logging_mixin.py:188} INFO - [2025-11-14T01:41:03.577+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T01:41:03.604+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.316 seconds
+[2025-11-14T02:24:51.265+0000] {processor.py:161} INFO - Started process (PID=17768) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:24:51.268+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:24:51.271+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:24:51.270+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:24:51.636+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:24:51.706+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:24:51.705+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:24:51.731+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:24:51.730+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:24:51.789+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.538 seconds
+[2025-11-14T02:25:22.214+0000] {processor.py:161} INFO - Started process (PID=17874) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:25:22.216+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:25:22.219+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:25:22.218+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:25:22.454+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:25:22.492+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:25:22.492+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:25:22.510+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:25:22.509+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:25:22.541+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.353 seconds
+[2025-11-14T02:25:52.919+0000] {processor.py:161} INFO - Started process (PID=17975) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:25:52.922+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:25:52.924+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:25:52.924+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:25:53.507+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:25:53.596+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:25:53.595+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:25:53.627+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:25:53.627+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:25:53.674+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.770 seconds
+[2025-11-14T02:26:23.979+0000] {processor.py:161} INFO - Started process (PID=18383) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:26:23.980+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:26:23.982+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:26:23.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:26:24.182+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:26:24.235+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:26:24.235+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:26:24.254+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:26:24.253+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:26:24.278+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.307 seconds
+[2025-11-14T02:26:54.879+0000] {processor.py:161} INFO - Started process (PID=18670) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:26:54.883+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:26:54.894+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:26:54.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:26:55.155+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:26:55.202+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:26:55.201+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:26:55.219+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:26:55.218+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:26:55.246+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.381 seconds
+[2025-11-14T02:27:25.567+0000] {processor.py:161} INFO - Started process (PID=18908) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:27:25.569+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:27:25.573+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:27:25.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:27:25.827+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:27:25.882+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:27:25.881+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:27:25.900+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:27:25.900+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:27:25.944+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.390 seconds
+[2025-11-14T02:27:56.364+0000] {processor.py:161} INFO - Started process (PID=19194) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:27:56.366+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:27:56.368+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:27:56.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:27:56.642+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:27:56.690+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:27:56.689+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:27:56.713+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:27:56.712+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:27:56.759+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.406 seconds
+[2025-11-14T02:28:27.557+0000] {processor.py:161} INFO - Started process (PID=19370) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:28:27.560+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:28:27.573+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:28:27.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:28:28.133+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:28:28.264+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:28:28.263+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:28:28.305+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:28:28.305+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:28:28.350+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.824 seconds
+[2025-11-14T02:28:58.569+0000] {processor.py:161} INFO - Started process (PID=19465) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:28:58.571+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:28:58.576+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:28:58.574+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:28:58.884+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:28:58.943+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:28:58.942+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:28:58.964+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:28:58.964+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:28:58.994+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.452 seconds
+[2025-11-14T02:29:29.195+0000] {processor.py:161} INFO - Started process (PID=19571) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:29:29.197+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:29:29.199+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:29:29.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:29:29.421+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:29:29.469+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:29:29.468+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:29:29.487+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:29:29.487+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:29:29.514+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.333 seconds
+[2025-11-14T02:29:59.574+0000] {processor.py:161} INFO - Started process (PID=19673) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:29:59.575+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:29:59.581+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:29:59.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:29:59.855+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:29:59.903+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:29:59.903+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:29:59.920+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:29:59.919+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:29:59.945+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.380 seconds
+[2025-11-14T02:30:31.256+0000] {processor.py:161} INFO - Started process (PID=19775) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:30:31.258+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:30:31.260+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:30:31.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:30:31.483+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:30:31.537+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:30:31.536+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:30:31.558+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:30:31.558+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:30:31.604+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.359 seconds
+[2025-11-14T02:31:02.078+0000] {processor.py:161} INFO - Started process (PID=19877) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:31:02.079+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:31:02.083+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:31:02.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:31:02.296+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:31:02.338+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:31:02.338+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:31:02.366+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:31:02.366+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:31:02.401+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.332 seconds
+[2025-11-14T02:31:32.879+0000] {processor.py:161} INFO - Started process (PID=19973) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:31:32.883+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:31:32.886+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:31:32.885+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:31:33.182+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:31:33.262+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:31:33.261+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:31:33.291+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:31:33.290+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:31:33.342+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.474 seconds
+[2025-11-14T02:32:03.518+0000] {processor.py:161} INFO - Started process (PID=20075) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:32:03.519+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:32:03.521+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:32:03.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:32:03.803+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:32:03.860+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:32:03.859+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:32:03.883+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:32:03.882+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:32:03.942+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.434 seconds
+[2025-11-14T02:32:34.162+0000] {processor.py:161} INFO - Started process (PID=20172) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:32:34.166+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:32:34.172+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:32:34.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:32:34.465+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:32:34.507+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:32:34.506+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:32:34.525+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:32:34.525+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:32:34.555+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.427 seconds
+[2025-11-14T02:33:05.083+0000] {processor.py:161} INFO - Started process (PID=20274) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:33:05.085+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:33:05.087+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:33:05.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:33:05.462+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:33:05.557+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:33:05.557+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:33:05.621+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:33:05.620+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:33:05.712+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.639 seconds
+[2025-11-14T02:33:35.941+0000] {processor.py:161} INFO - Started process (PID=20375) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:33:35.943+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:33:35.945+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:33:35.945+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:33:36.145+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:33:36.183+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:33:36.183+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:33:36.199+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:33:36.198+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:33:36.227+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.295 seconds
+[2025-11-14T02:34:06.422+0000] {processor.py:161} INFO - Started process (PID=20477) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:34:06.423+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:34:06.427+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:34:06.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:34:06.674+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:34:06.720+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:34:06.719+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:34:06.737+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:34:06.737+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:34:06.768+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.355 seconds
+[2025-11-14T02:34:37.474+0000] {processor.py:161} INFO - Started process (PID=20578) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:34:37.476+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:34:37.478+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:34:37.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:34:37.683+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:34:37.723+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:34:37.723+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:34:37.737+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:34:37.736+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:34:37.764+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.303 seconds
+[2025-11-14T02:35:07.940+0000] {processor.py:161} INFO - Started process (PID=20680) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:07.942+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:35:07.946+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:07.945+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:08.175+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:08.215+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:08.214+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:35:08.230+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:08.230+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:35:08.258+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.329 seconds
+[2025-11-14T02:35:38.990+0000] {processor.py:161} INFO - Started process (PID=20854) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:38.993+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:35:38.995+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:38.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:39.205+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:39.246+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:39.246+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:35:39.266+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:39.266+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:35:39.303+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.322 seconds
+[2025-11-14T02:35:54.445+0000] {processor.py:161} INFO - Started process (PID=21107) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:54.446+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:35:54.449+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:54.449+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:54.854+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:35:54.956+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:54.955+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:35:54.985+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:35:54.984+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:35:55.017+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.606 seconds
+[2025-11-14T02:36:09.655+0000] {processor.py:161} INFO - Started process (PID=21174) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:09.658+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:36:09.662+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:09.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:09.999+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:10.095+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:10.094+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:36:10.121+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:10.120+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:36:10.183+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.555 seconds
+[2025-11-14T02:36:25.152+0000] {processor.py:161} INFO - Started process (PID=21357) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:25.154+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:36:25.157+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:25.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:25.416+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:25.462+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:25.462+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:36:25.481+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:25.480+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:36:25.512+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.375 seconds
+[2025-11-14T02:36:41.417+0000] {processor.py:161} INFO - Started process (PID=21586) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:41.418+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:36:41.421+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:41.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:41.768+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:41.838+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:41.836+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:36:41.868+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:41.867+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:36:41.920+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.516 seconds
+[2025-11-14T02:36:55.988+0000] {processor.py:161} INFO - Started process (PID=21652) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:55.989+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:36:55.991+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:55.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:56.267+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:36:56.365+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:56.364+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:36:56.390+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:36:56.390+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:36:56.419+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.442 seconds
+[2025-11-14T02:37:12.169+0000] {processor.py:161} INFO - Started process (PID=21732) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:12.171+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:37:12.173+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:12.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:12.413+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:12.460+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:12.459+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:37:12.480+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:12.480+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:37:12.515+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.358 seconds
+[2025-11-14T02:37:26.504+0000] {processor.py:161} INFO - Started process (PID=21793) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:26.505+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:37:26.508+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:26.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:26.750+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:26.793+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:26.792+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:37:26.808+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:26.807+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:37:26.836+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.343 seconds
+[2025-11-14T02:37:42.605+0000] {processor.py:161} INFO - Started process (PID=21878) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:42.607+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:37:42.612+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:42.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:42.955+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:43.012+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:43.011+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:37:43.035+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:43.034+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:37:43.102+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.509 seconds
+[2025-11-14T02:37:57.007+0000] {processor.py:161} INFO - Started process (PID=21943) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:57.009+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:37:57.011+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:57.011+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:57.229+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:37:57.279+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:57.278+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:37:57.301+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:37:57.300+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:37:57.328+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.334 seconds
+[2025-11-14T02:38:13.995+0000] {processor.py:161} INFO - Started process (PID=22031) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:13.997+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:38:13.999+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:13.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:14.261+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:14.311+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:14.310+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:38:14.337+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:14.336+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:38:14.376+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.394 seconds
+[2025-11-14T02:38:27.473+0000] {processor.py:161} INFO - Started process (PID=22092) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:27.475+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:38:27.478+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:27.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:27.754+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:27.793+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:27.793+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:38:27.809+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:27.808+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:38:27.842+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.382 seconds
+[2025-11-14T02:38:44.804+0000] {processor.py:161} INFO - Started process (PID=22181) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:44.808+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:38:44.811+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:44.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:45.333+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:45.409+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:45.409+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:38:45.437+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:45.436+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:38:45.500+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.713 seconds
+[2025-11-14T02:38:57.932+0000] {processor.py:161} INFO - Started process (PID=22233) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:57.938+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:38:57.948+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:57.947+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:58.541+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:38:58.711+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:58.710+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:38:58.806+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:38:58.805+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:38:58.856+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.961 seconds
+[2025-11-14T02:39:16.294+0000] {processor.py:161} INFO - Started process (PID=22329) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:16.296+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:39:16.306+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:16.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:16.675+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:16.747+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:16.746+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:39:16.777+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:16.777+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:39:16.824+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.553 seconds
+[2025-11-14T02:39:29.461+0000] {processor.py:161} INFO - Started process (PID=22374) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:29.463+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:39:29.465+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:29.464+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:29.680+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:29.724+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:29.724+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:39:29.745+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:29.745+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:39:29.772+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.320 seconds
+[2025-11-14T02:39:47.670+0000] {processor.py:161} INFO - Started process (PID=22479) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:47.672+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:39:47.676+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:47.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:48.030+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:39:48.090+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:48.089+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:39:48.116+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:39:48.116+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:39:48.163+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.510 seconds
+[2025-11-14T02:40:00.130+0000] {processor.py:161} INFO - Started process (PID=22521) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:00.132+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:40:00.136+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:00.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:00.449+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:00.499+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:00.499+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:40:00.520+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:00.520+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:40:00.567+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.449 seconds
+[2025-11-14T02:40:18.274+0000] {processor.py:161} INFO - Started process (PID=22656) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:18.275+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:40:18.279+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:18.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:18.586+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:18.643+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:18.643+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:40:18.685+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:18.685+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:40:18.729+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.469 seconds
+[2025-11-14T02:40:31.482+0000] {processor.py:161} INFO - Started process (PID=22736) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:31.483+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:40:31.485+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:31.485+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:31.789+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:31.858+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:31.857+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:40:31.883+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:31.883+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:40:31.925+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.454 seconds
+[2025-11-14T02:40:49.124+0000] {processor.py:161} INFO - Started process (PID=22849) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:49.127+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:40:49.130+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:49.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:49.342+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:40:49.381+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:49.381+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:40:49.398+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:40:49.397+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:40:49.431+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.320 seconds
+[2025-11-14T02:41:02.645+0000] {processor.py:161} INFO - Started process (PID=22901) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:02.647+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:41:02.650+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:02.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:02.878+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:02.932+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:02.931+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:41:02.953+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:02.953+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:41:02.989+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.356 seconds
+[2025-11-14T02:41:19.601+0000] {processor.py:161} INFO - Started process (PID=22988) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:19.602+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:41:19.604+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:19.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:19.860+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:19.915+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:19.914+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:41:19.940+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:19.940+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:41:19.965+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.374 seconds
+[2025-11-14T02:41:33.126+0000] {processor.py:161} INFO - Started process (PID=23043) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:33.128+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:41:33.131+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:33.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:33.487+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:33.558+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:33.558+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:41:33.588+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:33.588+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:41:33.641+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.526 seconds
+[2025-11-14T02:41:50.277+0000] {processor.py:161} INFO - Started process (PID=23138) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:50.278+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:41:50.281+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:50.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:50.599+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:41:50.657+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:50.657+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:41:50.681+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:41:50.681+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:41:50.721+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.454 seconds
+[2025-11-14T02:42:03.924+0000] {processor.py:161} INFO - Started process (PID=23194) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:03.925+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:42:03.927+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:03.927+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:04.157+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:04.209+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:04.208+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:42:04.229+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:04.229+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:42:04.261+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.348 seconds
+[2025-11-14T02:42:21.511+0000] {processor.py:161} INFO - Started process (PID=23287) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:21.513+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:42:21.515+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:21.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:21.800+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:21.848+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:21.848+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:42:21.871+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:21.871+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:42:21.928+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.430 seconds
+[2025-11-14T02:42:35.014+0000] {processor.py:161} INFO - Started process (PID=23344) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:35.015+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:42:35.017+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:35.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:35.264+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:35.323+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:35.323+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:42:35.352+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:35.352+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:42:35.411+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.409 seconds
+[2025-11-14T02:42:52.760+0000] {processor.py:161} INFO - Started process (PID=23434) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:52.761+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:42:52.764+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:52.763+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:53.038+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:42:53.137+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:53.136+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:42:53.182+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:42:53.182+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:42:53.251+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.500 seconds
+[2025-11-14T02:43:06.003+0000] {processor.py:161} INFO - Started process (PID=23489) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:06.022+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:43:06.027+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:06.027+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:06.657+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:06.760+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:06.759+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:43:06.784+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:06.784+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:43:06.840+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.868 seconds
+[2025-11-14T02:43:25.175+0000] {processor.py:161} INFO - Started process (PID=23582) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:25.177+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:43:25.180+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:25.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:25.495+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:25.559+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:25.558+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:43:25.588+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:25.588+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:43:25.626+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.469 seconds
+[2025-11-14T02:43:37.084+0000] {processor.py:161} INFO - Started process (PID=23638) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:37.086+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:43:37.091+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:37.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:37.387+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:37.454+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:37.454+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:43:37.482+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:37.481+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:43:37.516+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.441 seconds
+[2025-11-14T02:43:56.022+0000] {processor.py:161} INFO - Started process (PID=23724) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:56.024+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:43:56.027+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:56.026+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:56.290+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:43:56.338+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:56.337+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:43:56.360+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:43:56.359+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:43:56.391+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.384 seconds
+[2025-11-14T02:44:08.587+0000] {processor.py:161} INFO - Started process (PID=23782) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:08.589+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:44:08.592+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:08.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:08.871+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:08.935+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:08.934+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:44:08.963+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:08.963+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:44:09.006+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.434 seconds
+[2025-11-14T02:44:26.468+0000] {processor.py:161} INFO - Started process (PID=23862) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:26.469+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:44:26.472+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:26.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:26.718+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:26.768+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:26.768+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:44:26.792+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:26.792+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:44:26.820+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.365 seconds
+[2025-11-14T02:44:39.641+0000] {processor.py:161} INFO - Started process (PID=23923) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:39.643+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:44:39.646+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:39.646+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:40.022+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:40.097+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:40.096+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:44:40.127+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:40.127+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:44:40.165+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.536 seconds
+[2025-11-14T02:44:57.664+0000] {processor.py:161} INFO - Started process (PID=24012) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:57.666+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:44:57.670+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:57.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:57.933+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:44:57.979+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:57.979+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:44:58.001+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:44:58.000+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:44:58.046+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.392 seconds
+[2025-11-14T02:45:10.565+0000] {processor.py:161} INFO - Started process (PID=24070) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:10.567+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:45:10.570+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:10.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:10.809+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:10.849+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:10.848+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:45:10.863+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:10.863+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:45:10.895+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.341 seconds
+[2025-11-14T02:45:28.413+0000] {processor.py:161} INFO - Started process (PID=24155) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:28.415+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:45:28.418+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:28.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:28.696+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:28.752+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:28.752+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:45:28.772+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:28.772+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:45:28.807+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.405 seconds
+[2025-11-14T02:45:41.507+0000] {processor.py:161} INFO - Started process (PID=24219) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:41.508+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:45:41.510+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:41.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:41.745+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:41.786+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:41.785+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:45:41.803+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:41.802+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:45:41.830+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.331 seconds
+[2025-11-14T02:45:59.362+0000] {processor.py:161} INFO - Started process (PID=24300) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:59.364+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:45:59.367+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:59.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:59.698+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:45:59.771+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:59.770+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:45:59.807+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:45:59.806+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:45:59.848+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.499 seconds
+[2025-11-14T02:46:12.591+0000] {processor.py:161} INFO - Started process (PID=24355) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:46:12.593+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:46:12.596+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:46:12.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:46:12.849+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:46:12.894+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:46:12.894+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:46:12.910+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:46:12.910+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:46:12.939+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.356 seconds
+[2025-11-14T02:46:30.501+0000] {processor.py:161} INFO - Started process (PID=24445) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:46:30.503+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:46:30.507+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:46:30.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:46:30.772+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:46:30.826+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:46:30.825+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:46:30.845+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:46:30.845+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:46:30.883+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.394 seconds
+[2025-11-14T02:49:17.778+0000] {processor.py:161} INFO - Started process (PID=25121) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:49:17.787+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:49:17.790+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:49:17.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:49:18.125+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:49:18.199+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:49:18.198+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:49:18.237+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:49:18.237+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:49:18.314+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.551 seconds
+[2025-11-14T02:49:48.488+0000] {processor.py:161} INFO - Started process (PID=25527) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:49:48.491+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:49:48.494+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:49:48.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:49:48.999+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:49:49.053+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:49:49.052+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:49:49.075+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:49:49.075+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:49:49.113+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.672 seconds
+[2025-11-14T02:50:19.513+0000] {processor.py:161} INFO - Started process (PID=25659) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:50:19.515+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:50:19.517+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:50:19.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:50:19.739+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:50:19.784+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:50:19.784+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:50:19.812+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:50:19.811+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:50:19.891+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.390 seconds
+[2025-11-14T02:50:50.223+0000] {processor.py:161} INFO - Started process (PID=26249) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:50:50.230+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:50:50.233+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:50:50.232+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:50:50.616+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:50:50.680+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:50:50.680+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:50:50.701+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:50:50.701+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:50:50.737+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.533 seconds
+[2025-11-14T02:51:21.327+0000] {processor.py:161} INFO - Started process (PID=26652) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:51:21.329+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:51:21.331+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:51:21.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:51:21.529+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:51:21.569+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:51:21.569+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:51:21.584+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:51:21.584+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:51:21.611+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.294 seconds
+[2025-11-14T02:51:52.308+0000] {processor.py:161} INFO - Started process (PID=26751) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:51:52.309+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:51:52.311+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:51:52.311+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:51:52.512+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:51:52.549+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:51:52.549+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:51:52.564+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:51:52.564+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:51:52.591+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.291 seconds
+[2025-11-14T02:52:23.048+0000] {processor.py:161} INFO - Started process (PID=26844) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:52:23.050+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:52:23.052+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:52:23.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:52:23.256+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:52:23.300+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:52:23.299+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:52:23.314+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:52:23.314+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:52:23.340+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.301 seconds
+[2025-11-14T02:52:55.026+0000] {processor.py:161} INFO - Started process (PID=26941) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:52:55.027+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:52:55.030+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:52:55.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:52:55.285+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:52:55.333+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:52:55.332+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:52:55.348+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:52:55.348+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:52:55.374+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.360 seconds
+[2025-11-14T02:53:25.754+0000] {processor.py:161} INFO - Started process (PID=27039) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:53:25.760+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:53:25.768+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:53:25.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:53:26.444+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:53:26.495+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:53:26.494+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:53:26.512+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:53:26.512+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:53:26.549+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.882 seconds
+[2025-11-14T02:53:57.497+0000] {processor.py:161} INFO - Started process (PID=27136) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:53:57.498+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:53:57.504+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:53:57.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:53:58.255+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:53:58.433+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:53:58.432+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:53:58.483+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:53:58.483+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:53:58.549+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 1.100 seconds
+[2025-11-14T02:54:29.193+0000] {processor.py:161} INFO - Started process (PID=27233) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:54:29.197+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:54:29.217+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:54:29.216+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:54:29.969+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:54:30.141+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:54:30.140+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:54:30.217+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:54:30.217+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:54:30.293+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 1.152 seconds
+[2025-11-14T02:55:00.589+0000] {processor.py:161} INFO - Started process (PID=27326) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:55:00.593+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:55:00.597+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:55:00.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:55:01.060+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:55:01.152+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:55:01.151+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:55:01.198+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:55:01.197+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:55:01.264+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.704 seconds
+[2025-11-14T02:55:31.967+0000] {processor.py:161} INFO - Started process (PID=27423) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:55:31.979+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:55:31.995+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:55:31.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:55:32.732+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:55:32.892+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:55:32.890+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:55:32.941+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:55:32.940+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:55:33.037+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 1.118 seconds
+[2025-11-14T02:56:03.579+0000] {processor.py:161} INFO - Started process (PID=27522) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:56:03.582+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:56:03.586+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:56:03.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:56:03.976+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:56:04.033+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:56:04.033+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:56:04.058+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:56:04.058+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:56:04.091+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.532 seconds
+[2025-11-14T02:56:34.220+0000] {processor.py:161} INFO - Started process (PID=27684) to work on /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:56:34.221+0000] {processor.py:830} INFO - Processing file /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py for tasks to queue
+[2025-11-14T02:56:34.223+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:56:34.223+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:56:34.432+0000] {processor.py:840} INFO - DAG(s) 'ge_regex_validation_dag' retrieved from /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py
+[2025-11-14T02:56:34.474+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:56:34.474+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-11-14T02:56:34.490+0000] {logging_mixin.py:188} INFO - [2025-11-14T02:56:34.490+0000] {dag.py:3947} INFO - Setting next_dagrun for ge_regex_validation_dag to None, run_after=None
+[2025-11-14T02:56:34.520+0000] {processor.py:183} INFO - Processing /home/ashahi/PFE/pip/data_quality/orchestration/dags/ge_validation_dag.py took 0.313 seconds
