@@ -1,0 +1,15 @@
+{
+  "duplicates": [
+    {
+      "alerte": "Aucun doublon détecté sur lignes complètes",
+      "type de test": "doublons sur ligne entière",
+      "statut": "réussi",
+      "nombre": 0,
+      "ratio": "0/3",
+      "exemples": []
+    }
+  ],
+  "regex": {
+    "regex": []
+  }
+}

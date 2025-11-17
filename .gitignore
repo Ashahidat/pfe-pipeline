@@ -1,0 +1,56 @@
+# ========================
+# Apache Atlas
+# ========================
+
+# Cibles de build et dashboards compilés
+data_governance/apache-atlas-sources-2.4.0/target/
+data_governance/apache-atlas-sources-2.4.0/dashboardv2/target/
+data_governance/apache-atlas-sources-2.4.0/dashboardv3/target/
+
+# Node modules si jamais présents
+**/node_modules/
+
+# ========================
+# Python
+# ========================
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# Data / résultats / temporaires
+# ========================
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Système
+# ========================
+.DS_Store
+*.swp
+
+
+
+data_governance/apache-atlas-sources-2.4.0/
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Airflow logs
+orchestration/airflow/logs/
+orchestration/airflow/*.pid
+orchestration/airflow/*.err
+
+# Temp CSV
+tmp/*.csv
+
+
+

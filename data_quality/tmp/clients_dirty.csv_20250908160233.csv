@@ -1,0 +1,6 @@
+id,name,email,phone
+1,Alice,alice@example.com,+22312345678
+2,Bob,bob@example,12345678   # email invalide, téléphone invalide
+3,Bob,bob@example,12345678   # doublon exact ligne précédente
+4,Charlie,charlie@example.com,+22355555555
+5,Alice,alice@example.com,+22312345678  # doublon exact ligne 1
