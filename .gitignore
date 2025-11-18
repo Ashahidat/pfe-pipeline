@@ -1,56 +1,69 @@
-# ========================
-# Apache Atlas
-# ========================
-
-# Cibles de build et dashboards compilés
-data_governance/apache-atlas-sources-2.4.0/target/
-data_governance/apache-atlas-sources-2.4.0/dashboardv2/target/
-data_governance/apache-atlas-sources-2.4.0/dashboardv3/target/
-
-# Node modules si jamais présents
-**/node_modules/
-
-# ========================
-# Python
-# ========================
-
-# Cache Python
+# ============================================
+# PYTHON
+# ============================================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# ========================
-# Data / résultats / temporaires
-# ========================
+# Virtual envs
+.env
+.env/
+env/
+venv/
 
-# ========================
-# Logs
-# ========================
-*.log
+# IDE
+.vscode/
+.idea/
 
-# ========================
-# Système
-# ========================
-.DS_Store
-*.swp
+# ============================================
+# DATA (NE PAS GIT LES DATAS)
+# ============================================
+*.xls
+*.xlsx
+*.parquet
+*.jsonl
+*.json
 
-
-
-data_governance/apache-atlas-sources-2.4.0/
-
-
-# Python
-__pycache__/
-*.pyc
-
-# Airflow logs
-orchestration/airflow/logs/
-orchestration/airflow/*.pid
-orchestration/airflow/*.err
-
-# Temp CSV
+# Garder seulement les CSV TEMP ignorés
 tmp/*.csv
+data_quality/tmp/*.csv
 
+# ============================================
+# AIRFLOW (IGNORER TOUT SAUF DAGS + CFG)
+# ============================================
+data_quality/orchestration/airflow/*
 
+# Exceptions
+!data_quality/orchestration/airflow/airflow.cfg
+!data_quality/orchestration/airflow/dags/
+!data_quality/orchestration/airflow/dags/**
 
+# ============================================
+# APACHE ATLAS SOURCES
+# ============================================
+data_governance/apache-atlas-sources-2.4.0/*
+
+# Garder le dossier vide grâce au fichier .keep
+!data_governance/apache-atlas-sources-2.4.0/.keep
+
+# ============================================
+# LOGS / TEMP
+# ============================================
+*.log
+logs/
+.cache/
+*.temp
+*.tmp
+
+# ============================================
+# OUTPUT
+# ============================================
+outputs/
+checkpoints/
+
+# ============================================
+# SYSTEM
+# ============================================
+.DS_Store
+Thumbs.db
