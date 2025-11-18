@@ -1,0 +1,69 @@
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.env
+.env/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# ============================================
+# DATA (NE PAS GIT LES DATAS)
+# ============================================
+*.xls
+*.xlsx
+*.parquet
+*.jsonl
+*.json
+
+# Garder seulement les CSV TEMP ignorés
+tmp/*.csv
+data_quality/tmp/*.csv
+
+# ============================================
+# AIRFLOW (IGNORER TOUT SAUF DAGS + CFG)
+# ============================================
+data_quality/orchestration/airflow/*
+
+# Exceptions
+!data_quality/orchestration/airflow/airflow.cfg
+!data_quality/orchestration/airflow/dags/
+!data_quality/orchestration/airflow/dags/**
+
+# ============================================
+# APACHE ATLAS SOURCES
+# ============================================
+data_governance/apache-atlas-sources-2.4.0/*
+
+# Garder le dossier vide grâce au fichier .keep
+!data_governance/apache-atlas-sources-2.4.0/.keep
+
+# ============================================
+# LOGS / TEMP
+# ============================================
+*.log
+logs/
+.cache/
+*.temp
+*.tmp
+
+# ============================================
+# OUTPUT
+# ============================================
+outputs/
+checkpoints/
+
+# ============================================
+# SYSTEM
+# ============================================
+.DS_Store
+Thumbs.db
