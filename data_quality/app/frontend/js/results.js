@@ -20,9 +20,7 @@ async function fetchResults() {
         while (state !== "success" && state !== "failed" && attempts < maxAttempts) {
             try {
                 const res = await fetch(`${API_URL}/dag-status?dag_run_id=${encodeURIComponent(dag_run_id)}`);
-                if (!res.ok) {
-                    throw new Error(`HTTP error! status: ${res.status}`);
-                }
+                if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
                 const data = await res.json();
                 state = data?.state || null;
                 console.log("État actuel du DAG:", state);
@@ -49,9 +47,7 @@ async function fetchResults() {
 
             try {
                 const res2 = await fetch(`${API_URL}/results`);
-                if (!res2.ok) {
-                    throw new Error(`HTTP error! status: ${res2.status}`);
-                }
+                if (!res2.ok) throw new Error(`HTTP error! status: ${res2.status}`);
                 const results = await res2.json();
                 console.log("Résultats reçus:", results);
 
@@ -60,10 +56,10 @@ async function fetchResults() {
                     return;
                 }
 
+                renderSummary(results);
                 renderResultsJSON(results);
                 statusDiv.style.display = "none";
 
-                // 👉 Ajouter le bouton Atlas après affichage
                 addPushAtlasButton();
 
             } catch (error) {
@@ -85,6 +81,62 @@ async function fetchResults() {
         resultsSection.style.display = "none";
     }
 }
+
+// ✨ Nouvelle fonction pour le résumé
+function renderSummary(data) {
+    const container = document.querySelector('.container');
+
+    // Supprimer l'ancien résumé s'il existe
+    const oldSummary = document.getElementById('summary');
+    if (oldSummary) oldSummary.remove();
+
+    let total = 0, success = 0, failed = 0;
+
+    // Parcours récursif des résultats pour compter tous les tests
+    function countTests(items) {
+        if (!items) return;
+        if (Array.isArray(items)) {
+            items.forEach(i => {
+                if (i.statut) {
+                    total++;
+                    if (i.statut === 'réussi') success++;
+                    else if (i.statut === 'échoué') failed++;
+                }
+            });
+        } else if (typeof items === 'object') {
+            Object.values(items).forEach(v => countTests(v));
+        }
+    }
+
+    countTests(data);
+
+    const summaryDiv = document.createElement('div');
+    summaryDiv.id = 'summary';
+    summaryDiv.style.margin = '15px 0 25px 0';
+    summaryDiv.style.padding = '12px';
+    summaryDiv.style.borderRadius = '8px';
+    summaryDiv.style.textAlign = 'center';
+    summaryDiv.style.fontWeight = 'bold';
+    summaryDiv.style.color = '#fff';
+    summaryDiv.style.fontSize = '16px';
+
+    // Couleur selon présence d'échecs
+    summaryDiv.style.backgroundColor = failed > 0 ? '#e74c3c' : '#27ae60';
+
+    summaryDiv.innerHTML = `
+        Résumé du rapport : Total tests : ${total} | Réussis : ${success} | Échoués : ${failed} | Taux de réussite : ${total ? ((success/total)*100).toFixed(1)+'%' : 'N/A'}
+    `;
+
+    // Insérer le résumé juste après le h1
+    const h1 = container.querySelector('h1');
+    if (h1) {
+        h1.insertAdjacentElement('afterend', summaryDiv);
+    } else {
+        // fallback si le h1 n'existe pas
+        container.insertBefore(summaryDiv, container.firstChild);
+    }
+}
+
 
 function renderResultsJSON(data) {
     const resultsSection = document.getElementById("resultsSection");
@@ -211,9 +263,7 @@ function renderResultsJSON(data) {
 
 // 👉 Fonction pour ajouter le bouton Atlas
 function addPushAtlasButton() {
-    if (document.getElementById('pushAtlasBtn')) {
-        return;
-    }
+    if (document.getElementById('pushAtlasBtn')) return;
 
     const container = document.querySelector('.container');
     const pushButton = document.createElement('button');
@@ -222,7 +272,7 @@ function addPushAtlasButton() {
     pushButton.textContent = '📤 Passer à Atlas';
 
     pushButton.onclick = function() {
-        window.location.href = "atlas.html"; // 👉 ouvre la page dédiée
+        window.location.href = "atlas.html";
     };
 
     container.appendChild(pushButton);
