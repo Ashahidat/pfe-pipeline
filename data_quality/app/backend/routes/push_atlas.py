@@ -9,7 +9,7 @@ from atlas.datasets import find_parent_dataset, create_dataset, link_versioning
 from atlas.columns import create_columns
 
 # Import du module similarity
-from similarity import hash_partial, load_quality_results, global_similarity
+from atlas.similarity import hash_partial, load_quality_results, global_similarity
 
 router = APIRouter()
 

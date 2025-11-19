@@ -1,7 +1,9 @@
 import logging
+import sys
+sys.path.append("/home/ashahi/PFE/pip/data_quality/app/backend")
 from .client import ATLAS_SEARCH_URL, ATLAS_ENTITY_BULK_URL, ATLAS_RELATIONSHIP_URL, atlas_get, atlas_post
 from .text import extract_base_name
-from similarity import global_similarity, load_quality_results, hash_partial
+from .similarity import global_similarity, load_quality_results, hash_partial
 import requests
 import pandas as pd
 
