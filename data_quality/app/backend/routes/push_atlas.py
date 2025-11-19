@@ -1,4 +1,7 @@
 from fastapi import APIRouter, HTTPException
+import sys
+sys.path.append("/home/ashahi/PFE/pip/data_quality/app/backend")
+
 from session import session_data
 from atlas.client import atlas_post, ATLAS_TYPEDEF_URL
 from atlas.typedefs import typedefs_payload
@@ -15,7 +18,15 @@ def push_atlas():
         file_path = session_data["file_path"]
         original_name = session_data["original_name"]
 
-        atlas_post(ATLAS_TYPEDEF_URL, typedefs_payload)
+        # 🔹 Charger typedefs sans planter si déjà existants
+        try:
+            atlas_post(ATLAS_TYPEDEF_URL, typedefs_payload)
+        except Exception as e:
+            if "409" in str(e):
+                # Typedefs déjà chargés → normal
+                pass
+            else:
+                raise
 
         parent_guid, parent_qn = find_parent_dataset(original_name, hash_value)
 

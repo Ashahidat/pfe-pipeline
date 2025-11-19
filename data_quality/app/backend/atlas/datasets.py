@@ -1,6 +1,6 @@
 import logging
 from .client import ATLAS_SEARCH_URL, ATLAS_ENTITY_BULK_URL, ATLAS_RELATIONSHIP_URL, atlas_get, atlas_post
-from utils.text import string_similarity, extract_base_name
+from .text import string_similarity, extract_base_name
 import requests
 
 logger = logging.getLogger("atlas.datasets")
