@@ -1,40 +1,70 @@
 import logging
 from .client import ATLAS_SEARCH_URL, ATLAS_ENTITY_BULK_URL, ATLAS_RELATIONSHIP_URL, atlas_get, atlas_post
-from .text import string_similarity, extract_base_name
+from .text import extract_base_name
+from similarity import global_similarity, load_quality_results, hash_partial
 import requests
+import pandas as pd
 
 logger = logging.getLogger("atlas.datasets")
 
-def find_parent_dataset(current_name: str, exclude_hash: str):
-    """Cherche un dataset parent avec une similarité de nom."""
+# 🔹 Helpers pour récupérer tous les datasets depuis Atlas
+def get_all_datasets_from_atlas():
     try:
         search_url = f"{ATLAS_SEARCH_URL}?typeName=DataSet&query=*"
         res = atlas_get(search_url)
-        entities = res.json().get("entities", [])
-
-        current_base = extract_base_name(current_name)
-
-        best = None
-        best_score = 0.7
-
-        for e in entities:
-            qn = e["attributes"]["qualifiedName"]
-            name = e["attributes"].get("name", "")
-            guid = e["guid"]
-
-            if qn == exclude_hash or e.get("status") == "DELETED":
-                continue
-
-            score = string_similarity(current_base, extract_base_name(name))
-            if score > best_score:
-                best = (guid, qn)
-                best_score = score
-
-        return best if best else (None, None)
-
+        return res.json().get("entities", [])
     except Exception as e:
-        logger.warning(f"Erreur recherche parent: {e}")
-        return None, None
+        logger.warning(f"Erreur get_all_datasets_from_atlas: {e}")
+        return []
+
+# 🔹 Helper pour récupérer le DataFrame d’un dataset parent
+# Ici, tu peux remplacer par lecture locale ou session si dataset déjà en mémoire
+def load_df_from_atlas(entity):
+    """
+    Simulé : renvoie un DataFrame Pandas.
+    Adapter si tu peux accéder au CSV réel ou via Atlas.
+    """
+    qn = entity["attributes"]["qualifiedName"]
+    try:
+        # Exemple si tu as un mapping fichier <-> qualifiedName
+        file_path = f"/home/ashahi/PFE/pip/data_quality/data/{qn}.csv"
+        df = pd.read_csv(file_path)
+        return df
+    except Exception as e:
+        logger.warning(f"Impossible de charger DF parent {qn}: {e}")
+        return pd.DataFrame()  # DF vide si erreur
+
+def find_parent_dataset(current_name: str, current_df, current_hash, current_tests):
+    """
+    Cherche le meilleur dataset parent selon global_similarity
+    """
+    entities = get_all_datasets_from_atlas()
+    best_parent = None
+    best_score = 0.0
+
+    for e in entities:
+        if e.get("status") == "DELETED":
+            continue
+
+        parent_df = load_df_from_atlas(e)
+        if parent_df.empty:
+            continue
+
+        # Résumé qualité du parent
+        parent_tests = load_quality_results(f"/home/ashahi/PFE/pip/data_quality/results/{e['attributes']['qualifiedName']}_validation.json")
+        parent_hash = hash_partial(parent_df)
+
+        score = global_similarity(
+            current_df, parent_df,
+            current_hash, parent_hash,
+            current_tests, parent_tests
+        )
+
+        if score > best_score and score > 0.8:  # seuil ajustable
+            best_parent = (e["guid"], e["attributes"]["qualifiedName"])
+            best_score = score
+
+    return best_parent if best_parent else (None, None)
 
 
 def create_dataset(hash_value: str, original_name: str, file_path: str, parent_qualified_name: str | None):
