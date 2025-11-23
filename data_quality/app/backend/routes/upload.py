@@ -5,40 +5,53 @@ from session import session_data
 import datetime
 import hashlib
 
-TMP_DIR = "/home/ashahi/PFE/pip/data_quality/tmp"
-os.makedirs(TMP_DIR, exist_ok=True)
+# Dossier unique pour stockage permanent
+DATA_DIR = "/home/ashahi/PFE/pip/data_quality/data"
+os.makedirs(DATA_DIR, exist_ok=True)
 
 router = APIRouter()
 
-# 📤 Upload CSV
+# 📤 Upload CSV - Version optimisée sans redondance
 @router.post("/upload")
 async def upload_csv(file: UploadFile = File(...)):
-    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-    tmp_file_path = os.path.join(TMP_DIR, f"{file.filename}_{timestamp}.csv")
-
-    with open(tmp_file_path, "wb") as f:
-        f.write(await file.read())
-
-    # Calcul du hash
-    h = hashlib.sha256()
-    with open(tmp_file_path, "rb") as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            h.update(chunk)
-    hash_value = h.hexdigest()
-
     try:
-        df = spark.read.option("header", True).option("inferSchema", True).csv(tmp_file_path)
+        # Stockage permanent dans /data
+        permanent_path = os.path.join(DATA_DIR, file.filename)
+        
+        with open(permanent_path, "wb") as f:
+            f.write(await file.read())
+
+        # Lecture Spark UNE SEULE FOIS
+        df = spark.read.option("header", True).option("inferSchema", True).csv(permanent_path)
+        
+        # Hash cohérent avec similarity.py
+        from atlas.similarity import hash_partial
+        hash_value = hash_partial(df)
+        
+        # Métadonnées pour éviter les recalculs
+        stats = {
+            "rowCount": df.count(),
+            "columnCount": len(df.columns),
+            "columns": list(df.columns)
+        }
+
+        # Stockage dans session
+        session_data["df"] = df
+        session_data["file_path"] = permanent_path
+        session_data["hash"] = hash_value
+        session_data["original_name"] = file.filename
+        session_data["stats"] = stats
+
+        return {
+            "message": "Fichier chargé", 
+            "columns": df.columns, 
+            "hash": hash_value, 
+            "original_name": file.filename,
+            "stats": stats
+        }
+
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Erreur lecture Spark: {str(e)}")
-
-    # Stockage dans session
-    session_data["df"] = df
-    session_data["columns"] = df.columns
-    session_data["file_path"] = tmp_file_path
-    session_data["hash"] = hash_value
-    session_data["original_name"] = file.filename  # <-- ajouté
-
-    return {"message": "Fichier chargé", "columns": df.columns, "hash": hash_value, "original_name": file.filename}
+        raise HTTPException(status_code=500, detail=f"Erreur upload: {str(e)}")
 
 # 👀 Aperçu du dataset
 @router.get("/preview")
